@@ -1,0 +1,35 @@
+name = "Tony Stark"
+# methods( dot operator)
+print(id(name))
+print("------------------------------------------------------------------------------------------")
+print(name.upper())
+print(id(name.upper()))
+print(name)
+print(id(name))
+print("------------------------------------------------------------------------------------------")
+print(name.find('s'))
+print(name.find('S'))
+print(name.find('Stark'))
+print(name.find('stark'))
+print("------------------------------------------------------------------------------------------")
+print(name.replace("Stark", "iron man"))
+memory = id(name.replace("Stark", "iron man"))
+print(memory)
+print(name)
+print(id(name))
+print(name.replace('T','M'))
+print(name.replace("Tony Stark","HULK"))
+print("------------------------------------------------------------------------------------------")
+name= "Iron Man"
+print(name)
+print(id(name))
+print("------------------------------------------------------------------------------------------")
+
+# KEYWORD
+
+### to check the existance of a char / subsrting in a string we use in keyword
+print(name)
+print('T' in name)
+print('I' in name)
+print('Stark' in name)
+print("------------------------------------------------------------------------------------------")
