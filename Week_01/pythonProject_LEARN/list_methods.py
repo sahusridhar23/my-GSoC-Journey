@@ -1,10 +1,11 @@
 marks = [95,96,99]
 
 print(marks)
-marks.append(100)
+marks.append("hello {}".format(6969))
+marks.append("hello {}".format(121212))
 print(marks)
 
-marks.insert(2,69)
+marks.insert(2,'new ele')
 print(marks)
 
 print(100 in marks)

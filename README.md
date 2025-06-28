@@ -12,7 +12,7 @@ Hello! This is where I’m documenting my preparation for Google Summer of Code 
 - learnt python basics(variables, data types, loops, and functions)
 - learnt git basits(init, add, commit, push, and branches)
 - practiced python problems ,learnt basic numpy(arrays), also matplotlib and seaborn from internship classes
--
+- learnt OOP , numpy completely , and done assignment related to it  
 
 ## Why this repo?
 
