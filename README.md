@@ -5,14 +5,18 @@ Hello! This is where I’m documenting my preparation for Google Summer of Code 
 ## Weekly Plan
 
 [x] Week 1: Python Basics + Git
-[ ] Week 2: NumPy + DSA Arrays
+[x] Week 2: NumPy + ~~DSA Arrays~~
+[o] Week 3: Pandas + DSA Arrays
 
 ## Highlights So Far
 
 - learnt python basics(variables, data types, loops, and functions)
 - learnt git basits(init, add, commit, push, and branches)
 - practiced python problems ,learnt basic numpy(arrays), also matplotlib and seaborn from internship classes
-- learnt OOP , numpy completely , and done assignment related to it  
+- learnt OOP , numpy completely(broadcasting and vectorization) , and done assignment related to it
+- Week03 on **halt**
+- Built a HousePricePredictor using simple linear regession model
+- 
 
 ## Why this repo?
 
