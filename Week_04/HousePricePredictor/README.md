@@ -1,8 +1,8 @@
 # House Price Predictor using Machine Learning
- A regression model trained on the Kaggle Ames Housing dataset to predict house prices based on various features like location, size, condition, etc.
+A regression model trained on the Kaggle Ames Housing dataset to predict house prices based on various features like location, size, condition, etc.
 ---
 
-# Model Evaluation
+## Model Performance
 
 | Metric | Score       |
 | ------ | ----------- |
@@ -12,7 +12,7 @@
 
 ---
 
-# Techniques Used
+## Techniques Used
 
 - Data cleaning and preprocessing
 - Handling missing values
@@ -22,6 +22,6 @@
 
 ---
 
-# Dataset Source
+## Dataset Source
 
-Ames Housing Dataset - Kaggle
+[Ames Housing Dataset - Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data)
