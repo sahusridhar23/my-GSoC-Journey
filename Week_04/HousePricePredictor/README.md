@@ -24,4 +24,5 @@ A regression model trained on the Kaggle Ames Housing dataset to predict house p
 
 ## Dataset Source
 
-[Ames Housing Dataset - Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data)
+[House Prices - Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data)
+
