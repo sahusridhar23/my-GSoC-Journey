@@ -64,7 +64,7 @@ st.multiselect("Coose the department",['Technical','marketing','customer care'])
 #selectslider
 st.select_slider("Rating",['bad','good','excellent','outstanding'])
 
-#lider
+#slider
 st.slider("Enter your number",0,100)
 
 #number input
