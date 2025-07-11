@@ -40,10 +40,22 @@ with st.expander("Data"):
 # streamlit UI
 ## input features = ['LotArea', 'SaleCondition',SaleType','OverallQoal','YearBuilt','GarageType']
 
-st.sidebar.title("Input Features")
-LotArea = st.sidebar.number_input("Enter lot area(in square feet)",1000,30000)
-SaleCondition = st.sidebar.selectbox("choose sale condition",['Normal', 'Abnorml', 'Partial', 'AdjLand', 'Alloca', 'Family'])
-SaleType = st.sidebar.selectbox('choose saletype',['WD(Warranty Deed - Conventional)','New(Home just constructed and sold)', 'COD(Court Officer Deed/Estate)', 'ConLD(Contract Low Down)', 'ConLI(Contract Low Interest)', 'CWD(Warranty Deed - Cash)', 'ConLw(Contract Low Down payment and low interest)', 'Con(Contract 15% Down payment regular terms)', 'Other'])
-OverallQoal = st.sidebar.select_slider("Enter overall rating",1,10)
-YearBuilt = st.sidebar.number_input("Enter year built",0,1000000)
-GarageType = st.sidebar.selectbox(['Attchd', 'Detchd', 'BuiltIn', 'CarPort', 'None', 'Basment','2Types'])
+with st.sidebar.expander("House Information"):
+    LotArea = st.sidebar.number_input("Enter lot area (in square feet)", 1000, 30000)
+    YearBuilt = st.sidebar.number_input("Enter year built", 0, 1000000)
+with st.sidebar.expander("Sale Details"):
+    SaleCondition = st.sidebar.selectbox("Choose sale condition", ['Normal', 'Abnorml', 'Partial', 'AdjLand', 'Alloca', 'Family'])
+    SaleType = st.sidebar.selectbox('Choose saletype', [
+        'WD(Warranty Deed - Conventional)',
+        'New(Home just constructed and sold)',
+        'COD(Court Officer Deed/Estate)',
+        'ConLD(Contract Low Down)',
+        'ConLI(Contract Low Interest)',
+        'CWD(Warranty Deed - Cash)',
+        'ConLw(Contract Low Down payment and low interest)',
+        'Con(Contract 15% Down payment regular terms)',
+        'Other'
+    ])
+with st.sidebar.expander("Other Details"):
+    OverallQoal = st.sidebar.select_slider("Enter overall rating", 1, 10)
+    GarageType = st.sidebar.selectbox("Select garage type", ['Attchd', 'Detchd', 'BuiltIn', 'CarPort', 'None', 'Basment', '2Types'])
