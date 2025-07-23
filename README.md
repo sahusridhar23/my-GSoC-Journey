@@ -4,12 +4,12 @@ Hello! This is where I’m documenting my preparation for Google Summer of Code 
 
 ## Weekly Plan
 
-[x] Week 1: Python Basics + Git
-[x] Week 2: NumPy + ~~DSA Arrays~~
-[x] Week 3: Pandas + ~~DSA Arrays~~
-[x] Week 4: Mini ML + GitHub Projects
-[x] Week 5: Streamlit + Realign DSA plan
-[x] Week 6: Open Source Prep + arrays questions
+[x] Week 1: Python Basics + Git  
+[x] Week 2: NumPy + ~~DSA Arrays~~  
+[x] Week 3: Pandas + ~~DSA Arrays~~  
+[x] Week 4: Mini ML + GitHub Projects  
+[x] Week 5: Streamlit + Realign DSA plan  
+[x] Week 6: Open Source Prep + arrays questions  
 
 
 
