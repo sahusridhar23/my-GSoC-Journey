@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -5,9 +6,14 @@ import joblib
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.linear_model import LinearRegression
 
+
+
 # Load model
-model = joblib.load('LR_HPP.pkl')
-OHE = joblib.load("encoder.pkl")
+
+model_path = os.path.join(os.path.dirname(__file__), 'LR_HPP.pkl')
+model = joblib.load(model_path)
+encoder_path = os.path.join(os.path.dirname(__file__), 'encoder.pkl')
+OHE = joblib.load(encoder_path)
 
 st.title("🤖 MACHINE LEARNING APP")
 st.info("This app builds a ML model to predict the House Prices")
