@@ -1,65 +1,74 @@
 # 🏠 House Price Prediction Web App
-This project uses a Linear Regression model to predict house prices based on selected features such as LotArea, SaleCondition, SaleType, OverallQual, YearBuilt, and GarageType.
-It has been deployed as an interactive Streamlit web app.
+
+This project uses a **Linear Regression** model to predict house prices based on selected features such as `LotArea`, `SaleCondition`, `SaleType`, `OverallQual`, `YearBuilt`, and `GarageType`.  
+It is deployed as an interactive **Streamlit** web application.
+
+---
 
 ## 🔍 Overview
 
-🎯 Goal: Predict house prices using user-provided metrics.
+🎯 **Goal**: Predict house prices using user-provided inputs.  
+🤖 **Model Used**: Linear Regression  
+🌐 **Framework**: Streamlit – used to create an interactive and responsive web application  
+🧠 **Backend/ML**: Python, Scikit-learn  
+📊 **Dataset**: [Ames House Prices Dataset](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data)
 
-🤖 Model Used: Linear Regression.  
+---
 
-🌐 framework : Streamlit - used to create a interactive and responsive web app.   
+## 🚀 Live Demo
 
-🧠 Backend/ML: Python, Scikit-learn.  
+🔗 [Click here to try the app](https://housepricepredictorsimple.streamlit.app/)
 
-📊 Dataset: [Ames House Prices](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) Dataset
+---
 
-## 🚀 Live Demo 
+## 🛠️ How It Works
 
-🔗[live demo link click here](https://housepricepredictorsimple.streamlit.app/)
+1. User provides house features via the web form.
+2. Categorical variables are encoded using `encoder.pkl`.
+3. The trained model (`LR_HPP.pkl`) makes the prediction.
+4. The predicted price is displayed, along with optional visualizations.
 
-
-
-## 📌 How it Works
-1. User enters input for house parameters.
-
-2. Categorical variables are encoded using the saved encoder.pkl.
-
-3. The trained model LR_HPP.pkl predicts the house price.
-
-4. Result is displayed with optional plots/visuals.
+---
 
 ## 📷 Screenshots
+
 ![WebApp screenshot](WebApp_ss.png)
 
+---
 
-## 📌 Project Highlights
-- [x] Exploratory Data Analysis (EDA)
-- [x] Data Preprocessing
-- [x] Feature Selection
-- [x] Model Training (Linear Regression)
-- [x] Model Evaluation (MAE, RMSE, R²)
-- [x] Streamlit Web Application
-- [x] Deployment  
+## 🌟 Project Highlights
+
+- [x] Exploratory Data Analysis (EDA)  
+- [x] Data Preprocessing  
+- [x] Feature Selection  
+- [x] Model Training (Linear Regression)  
+- [x] Model Evaluation (MAE, RMSE, R²)  
+- [x] Streamlit Web App  
+- [x] Deployment
+
+---
 
 ## 📔 Model Summary
-- Model Used: Linear Regression
 
-- Features Used:
-LotArea, SaleCondition, SaleType, OverallQual, YearBuilt, GarageType
+- **Model Used**: Linear Regression  
+- **Features Used**:  
+  `LotArea`, `SaleCondition`, `SaleType`, `OverallQual`, `YearBuilt`, `GarageType`
 
-## 📈 Model Performance/Evaluation Metrics
+---
 
-| Metric | Score       |
-| ------ | ----------- |
-| MAE    | 18,612      |
-| MSE    | 876,261,511 |
-| R²     | 0.886       |
+## 📈 Model Performance
 
+| Metric | Value        |
+|--------|--------------|
+| MAE    | 18,612       |
+| MSE    | 876,261,511  |
+| R²     | 0.886        |
+
+---
 
 ## 🙋‍♂️ Author
-Sridhar Sahu
 
-First ML project with deployment. Exploring the intersection of ML and web development.
+**Sridhar Sahu**  
+This is my first machine learning project with deployment. I'm currently exploring the intersection of ML and web development.
 
-• [portfolio](https://github.com/sahusridhar23) 
+🔗 [Portfolio / GitHub](https://github.com/sahusridhar23)
