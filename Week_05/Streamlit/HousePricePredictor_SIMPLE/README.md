@@ -30,7 +30,7 @@ It has been deployed as an interactive Streamlit web app.
 4. Result is displayed with optional plots/visuals.
 
 ## 📷 Screenshots
-(some screenshots of deployed app here)
+![WebApp screenshot](WebApp_ss.png)
 
 
 ## 📌 Project Highlights
@@ -61,4 +61,5 @@ LotArea, SaleCondition, SaleType, OverallQual, YearBuilt, GarageType
 Sridhar Sahu
 
 First ML project with deployment. Exploring the intersection of ML and web development.
-• [GitHub](https://github.com/sahusridhar23) 
+
+• [portfolio](https://github.com/sahusridhar23) 
