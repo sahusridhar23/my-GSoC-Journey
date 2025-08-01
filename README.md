@@ -10,7 +10,9 @@ Hello! This is where I’m documenting my preparation for Google Summer of Code 
 - [x] Week 3: Pandas + ~~DSA Arrays~~  
 - [x] Week 4: Mini ML + GitHub Projects  
 - [x] Week 5: Streamlit + Realign DSA plan  
-- [x] Week 6: Open Source Prep + arrays questions  
+- [x] Week 6: Open Source Prep + arrays questions. 
+- [x] Week 7: GSOC org research + focus completion   
+
 
 
 
@@ -26,6 +28,8 @@ Hello! This is where I’m documenting my preparation for Google Summer of Code 
 - learnt about streamlit web framework, developed a local web application to predice house prices bassed on limited factors.
 - Realigned DSA, with arrays.
 - solved nearly 10 array questions in leetcode.  
+- Made a overview of GSOC orgs and few other research.
+
 
 ## ❓ Why this repo?
 
