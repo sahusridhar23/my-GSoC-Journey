@@ -13,8 +13,8 @@ Hello! This is where I’m documenting my preparation for Google Summer of Code 
 - [x] Week 6: Open Source Prep + arrays questions. 
 - [x] Week 7: GSOC org research + focus completion   
 
-
-
+THE REST OF THE PROGRESS MAY BE SHARED IN THIS REPO OR COULD BE DISCRETELY PRESENT IN PROFILE
+ 
 
 
 ## ✔️ Highlights So Far
