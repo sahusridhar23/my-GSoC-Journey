@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(){
-	int arr[]= {2, 0, 2, 1, 1, 0};//{1,0,1,0,1,0};// 6
+	int arr[]= {2, 0, 2, 1, 1, 0};// 6
 	int insertpos = 0,i,j,temp;
 	
 	for (i=0;i<6;i++){

@@ -9,7 +9,7 @@ You must solve this in one pass (i.e., linear time) and constant space (i.e., wi
 void swap(int arr[],int pos1,int pos2);
 
 int main(){
-	int i,arr[] = {2, 0, 2, 1, 1, 0};
+	int i,arr[] = {2, 0, 2, 1, 1, 0};//6
 	
 	for (i=0;i<6;i++){
 		printf("%d \t",arr[i]);

@@ -59,6 +59,7 @@ void unite(int arr1[],int arr2[],int Union[] ,int m,int n){
 		k--;
 	}
 	
+	
 	int length = sizeof(Union)/sizeof(Union[0]);
 	
 	display(Union,m+n);
