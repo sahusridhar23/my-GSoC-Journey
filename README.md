@@ -1,36 +1,34 @@
-# 🧠 My GSoC Journey (June–July 2025)
+#🚀 My GSoC Journey
+---
+This repository is a living diary of my preparation for Google Summer of Code (GSoC).
+It’s not just about final projects — it’s about the footprints I’m leaving along the way: weekly progress, experiments, learnings, and reflections.
 
-Hello! This is where I’m documenting my preparation for Google Summer of Code (GSoC) as a beginner. I’m focusing on Python, Git, DSA, and Machine Learning.
+If you’re curious about how a beginner grows into a contributor, this is the place.
 
+🗓️ Progress Timeline
+---
+✅ Phase 1 (June–July 2025): Python, Git, NumPy, Pandas, DSA basics, first ML project (House Price Predictor).
 
-## 🗓️ Weekly Plan
+🚧 Phase 2 (Aug–Oct 2025): Diving into ML projects (Diabetes Predictor), improving DSA, and open-source prep.
 
-- [x] Week 1: Python Basics + Git  
-- [x] Week 2: NumPy + ~~DSA Arrays~~  
-- [x] Week 3: Pandas + ~~DSA Arrays~~  
-- [x] Week 4: Mini ML + GitHub Projects  
-- [x] Week 5: Streamlit + Realign DSA plan  
-- [x] Week 6: Open Source Prep + arrays questions. 
-- [x] Week 7: GSOC org research + focus completion   
+⏳ Phase 3 (Planned): To be announced — likely advanced ML + robotics stack exploration.
 
-THE REST OF THE PROGRESS MAY BE SHARED IN THIS REPO OR COULD BE DISCRETELY PRESENT IN PROFILE
- 
+📌 Key Milestones
+---
+Learned Python + Git basics.
 
+Completed House Price Predictor (Linear Regression + Streamlit app).
 
-## ✔️ Highlights So Far
+Started Diabetes Predictor (classification-focused ML project).
 
-- learnt python basics(variables, data types, loops, and functions)
-- learnt git basits(init, add, commit, push, and branches)
-- practiced python problems ,learnt basic numpy(arrays), also matplotlib and seaborn from internship classes
-- learnt OOP , numpy completely(broadcasting and vectorization) , and done assignment related to it
-- Week03 compensated. 
-- Built a HousePricePredictor using simple linear regession model
-- learnt about streamlit web framework, developed a local web application to predice house prices bassed on limited factors.
-- Realigned DSA, with arrays.
-- solved nearly 10 array questions in leetcode.  
-- Made a overview of GSOC orgs and few other research.
+Actively solving DSA problems (LeetCode, arrays, stacks, trees, graphs).
 
+Began researching GSoC orgs and aligning skills.
 
-## ❓ Why this repo?
+❓ Why This Repo?
+---
+Because growth isn’t just about results — it’s about the journey.
+This repo documents the messy steps, the “aha!” moments, and the footprints I want to look back on.
 
-To track learning and share it openly. Let’s grow!
+For polished, standalone ML projects, check:
+👉 [ML-Projects Repo](https://github.com/sahusridhar23/ML-projects)
