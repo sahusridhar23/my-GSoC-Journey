@@ -15,15 +15,13 @@ If you’re curious about how a beginner grows into a contributor, this is the p
 
 📌 Key Milestones
 ---
-Learned Python + Git basics.
+* Learned Python + Git basics.
 
-Completed House Price Predictor (Linear Regression + Streamlit app).
+* Completed House Price Predictor (Linear Regression + Streamlit app).
 
-Started Diabetes Predictor (classification-focused ML project).
+* Started Diabetes Predictor (classification-focused ML project).
 
-Actively solving DSA problems (LeetCode, arrays, stacks, trees, graphs).
-
-Began researching GSoC orgs and aligning skills.
+* Began researching GSoC orgs and aligning skills.
 
 ❓ Why This Repo?
 ---
